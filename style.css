@@ -1,0 +1,118 @@
+body {
+	background: #d3d3d3;
+}
+
+header {
+	position: fixed;
+	left: 0;
+	top: 0;
+	background: white;
+	width: 100%;
+	height: 5em;
+	margin: 0px auto;
+	z-index: 1;
+}
+
+header .header-left {
+	position: absolute;
+	/* top: 0.5em; */
+	left: 0.5em;
+}
+
+header .header-right {
+	position: absolute;
+	top: 0.5em;
+	right: 0.5em;
+}
+
+header .header-links {
+	display: inline-block;
+	padding: 0 1em 0 1em;
+	list-style: none;
+}
+
+header .header-links li {
+	position: relative;
+	display: block;
+	float: left;
+	margin-right: 3em;
+	font-size: 1.5em;
+}
+
+#content {
+	position: relative;
+	margin-top: 5em; /* Equals header's height. */
+}
+
+p {
+	font-size: 2em;
+}
+
+footer {
+	position: relative;
+	bottom: 0;
+	background: green;
+	width: 100%;
+	height: 15em;
+}
+
+footer .footer-left {
+	position: absolute;
+	top: 4em;
+	left: 10%;
+}
+
+footer .footer-right {
+	position: absolute;
+	top: 1em;
+	right: 25%;
+}
+
+footer .footer-social-media, footer .footer-links {
+	display: inline-block;
+	padding: 0 1em 0 1em;
+	list-style: none;
+}
+
+footer .footer-links li {
+	font-size: 1.5em;
+	font-family: sans-serif;
+	margin: 0.5em auto 0.5em auto;
+}
+
+footer .footer-social-media li {
+	position: relative;
+	display: block;
+	float: left;
+	margin-right: 4em;
+}
+
+footer .footer-social-media i {
+	display: inline-block;
+	position: relative;
+	cursor: pointer;
+	width: 1.33em;
+	height: 1.33em;
+	line-height: 1.33em;
+	padding: 0;
+	text-align: center;
+	color: white;
+	font-size: 4em;
+	border-radius: 50%;
+}
+
+.fa-facebook {
+	background: #4060a5;
+}
+
+.fa-twitter {
+	background: #00abe3;
+}
+
+.fa-youtube {
+	background: #cd201f;
+}
+
+.fa-github {
+	background: black;
+}
