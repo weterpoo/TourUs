@@ -1,4 +1,12 @@
-Template.body.events({
+Guides = new Mongo.Collection('guides');
+
+if(Meteor.isServer){
+  Meteor.publish('guides');
+}
+
+else if(Meteor.isClient){
+  Meteor.subscribe('guides');
+  Template.body.events({
     "submit .user_form": function (event) {
       // Prevent default browser form submit
       event.preventDefault();
@@ -15,3 +23,5 @@ Template.body.events({
       
     }
   });
+}
+  
