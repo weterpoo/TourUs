@@ -2397,10 +2397,10 @@
 	#banner {
 		background-attachment: scroll, scroll, scroll, fixed;
 		background-color: #645862;
-		background-image: url("../../images/dayone.jpg");
+		background-image: url("../../images/rocket.jpg");
 		background-size: cover;
 		background-repeat: no-repeat;
-		color: #fff;
+		color: rgb(150,150,255);
 		cursor: default;
 		padding: 6em 0;
 		text-align: center;
@@ -2415,7 +2415,8 @@
 			-webkit-animation-fill-mode: forwards;
 			-ms-animation-fill-mode: forwards;
 			animation-fill-mode: forwards;
-			background: rgba(30, 30, 65, 0.6);
+			background: rgba(0, 0, 0, 0.65);
+			border: solid 2px white;
 			color: #fff;
 			display: inline-block;
 			opacity: 0;
@@ -2499,7 +2500,7 @@
 
 	#cta {
 		background-attachment: scroll, scroll, scroll, fixed;
-		background-image: url("../../images/colab.jpg");
+		background-image: url("../../images/yosemite.jpg");
 		/*background-position: top left, top right, top left, bottom center;*/
 		/*background-repeat: no-repeat, no-repeat, repeat, no-repeat;*/
 		background-size: cover;
