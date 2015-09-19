@@ -116,3 +116,13 @@ footer .footer-social-media i {
 .fa-github {
 	background: black;
 }
+
+#guide_first {
+	display:inline-block;
+	width: 100px;
+}
+
+#guide_last {
+	display: inline-block;
+	width: 100px;
+}
